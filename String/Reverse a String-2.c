@@ -1,7 +1,7 @@
 /*
 we have to reverse string but not the special character
-ex : str = a,bc$d!        o/p = d,cb$a!
-     str = a!b*cdf$s      o/p = s!f*dcb$a
+ex : str = a,bc$d!     --->      o/p = d,cb$a!
+     str = a!b*cdf$s   --->      o/p = s!f*dcb$a
  */
 #include<stdio.h>
 #include<string.h>
