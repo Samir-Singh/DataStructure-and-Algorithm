@@ -2,6 +2,7 @@
 We have to seperate the negative and positive number in an array : 
 ex:     -5,7,5,-6,-4,-1,8,10,-12,45,-65
 o/p :   -5,-6,-4,-1,-12,-65,7,5,8,10,45
+Time Complexity : O(n)
  */
 #include<stdio.h>
 void swap(int *a, int *b)
@@ -21,11 +22,7 @@ void segregateArray(int arr[], int n)
 		while(arr[j] > 0)
 			j--;
 		if(i < j)
-		{
-			swap(&arr[i],&arr[j]);
-			i++;
-			j--;
-		}
+			swap(&arr[i],&arr[j]);               
 		else break;
 	}
 	for(i=0; i<n; i++)
